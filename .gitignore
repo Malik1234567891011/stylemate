@@ -1,18 +1,15 @@
-# === Node ===
-node_modules/
+# === Node Modules ===
 client/node_modules/
 
-# === Python ===
+# === Python Virtualenv & Bytecode ===
 stylemate-ai/venv/
 __pycache__/
 *.pyc
 
-# === Generated Artifacts ===
+# === FAISS Index & Generated Vectors ===
 stylemate-ai/product.index
 stylemate-ai/product_vectors.json
 stylemate-ai/product_metas.json
-stylemate-ai/data/
-stylemate-ai/*.json
 
-# === OS ===
+# === macOS Finder ===
 .DS_Store
