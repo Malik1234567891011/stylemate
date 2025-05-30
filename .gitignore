@@ -1,6 +1,18 @@
-venv/
+# === Node ===
+node_modules/
+client/node_modules/
 
-# Ignore Python venv
+# === Python ===
 stylemate-ai/venv/
 __pycache__/
 *.pyc
+
+# === Generated Artifacts ===
+stylemate-ai/product.index
+stylemate-ai/product_vectors.json
+stylemate-ai/product_metas.json
+stylemate-ai/data/
+stylemate-ai/*.json
+
+# === OS ===
+.DS_Store
