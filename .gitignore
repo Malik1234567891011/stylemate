@@ -1,0 +1,6 @@
+venv/
+
+# Ignore Python venv
+stylemate-ai/venv/
+__pycache__/
+*.pyc
