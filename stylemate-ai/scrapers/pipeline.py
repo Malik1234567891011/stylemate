@@ -100,7 +100,7 @@ def run_full_pipeline(scraper_module: str, output_folder: str):
 
     for idx, prod in enumerate(products, start=1):
         title = prod.get("title", "<no-title>")
-        image_url = prod.get("image_url", "")
+        image_url = prod.get("image", "")
         meta = { "title": title, "price": prod.get("price"), "url": prod.get("url") }
 
         if not image_url:
