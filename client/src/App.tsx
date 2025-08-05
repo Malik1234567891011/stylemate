@@ -6,6 +6,8 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Recommendations from "./pages/Recommendations";
 import Navbar from "./components/NavBar";
+import 'tippy.js/dist/tippy.css'; // Optional: for basic styling
+
 
 function App() {
   return (
